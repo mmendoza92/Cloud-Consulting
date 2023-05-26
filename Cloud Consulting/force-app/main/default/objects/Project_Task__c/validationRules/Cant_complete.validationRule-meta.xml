@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cant_complete</fullName>
+    <active>true</active>
+    <description>La tarea debe tener horas registradas ( una o más horas) para poder pasar a &apos;Completed&apos;.</description>
+    <errorConditionFormula>AND(
+    ISCHANGED(Status__c),
+    TEXT(Status__c) = &apos;Completed&apos;,
+    Registered_Hours__c &lt;&gt; Estimated_Hour__c
+)</errorConditionFormula>
+    <errorMessage>Las horas registradas deben ser igual a las estimadas.</errorMessage>
+</ValidationRule>

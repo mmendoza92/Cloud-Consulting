@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Resource</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Resources</value>
+    </caseValues>
+    <layouts>
+        <layout>Project Resource Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>End_date_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Project_in_progress</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RolWrong</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Start_date_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>end_date_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>paradox_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>start_date_2</name>
+    </validationRules>
+</CustomObjectTranslation>

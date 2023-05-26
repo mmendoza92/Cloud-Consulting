@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_hours</fullName>
+    <active>true</active>
+    <errorConditionFormula>Estimated_Hour__c   &gt;  Project_Resource__r.Assigned_Hours__c</errorConditionFormula>
+    <errorMessage>Las horas estimadas no pueden ser mayor a las horas asignadas</errorMessage>
+</ValidationRule>

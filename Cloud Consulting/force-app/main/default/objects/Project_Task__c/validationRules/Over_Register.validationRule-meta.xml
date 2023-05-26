@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Over_Register</fullName>
+    <active>true</active>
+    <description>Las horas registradas deben igualar a las horas estiamdas</description>
+    <errorConditionFormula>Registered_Hours__c  &gt;  Estimated_Hour__c</errorConditionFormula>
+    <errorMessage>Resgistro demaciadas horas</errorMessage>
+</ValidationRule>
